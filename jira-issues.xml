@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+  <ModulePrefs title="Saad Gadget"
+  description="This gadget pulls content from an arbitrary JIRA JQL Query and displays the results in the gadget window"
+  author="Atlassian"
+  author_email="sales@atlassian.com">
+    <Optional feature="gadget-directory">
+      <Param name="categories">JIRA</Param>
+    </Optional>
+  </ModulePrefs>
+  <Content type="html">
+    <![CDATA[
+    Hello world!
+    ]]>
+  </Content>
+</Module>
